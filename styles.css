@@ -109,7 +109,7 @@ header .content h1{
 }
 header .content h1 span{
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px green;
+    -webkit-text-stroke: 1px #fff;
 }
 header .content p{
     margin-bottom: 2rem;
@@ -350,5 +350,7 @@ footer .column > a:hover{
         grid-template-columns: 1fr 150px;
     }
 }
+
+
 
 
