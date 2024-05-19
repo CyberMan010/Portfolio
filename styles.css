@@ -150,7 +150,7 @@ section .header{
     gap: 2rem;
 }
 .features .card{
-    background-color: #27272a;
+    background-color: #00337C;
     padding: 2rem;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -159,13 +159,13 @@ section .header{
 }
 
 .features .card:hover{
-    background-color: #323232;
+    background-color: #1e40af;
     border-color: #fff;
 }
 
 .features .card span{
     display: inline-block;
-    background-color: #1e40af;
+    background-color:#1c82ad ;
     padding: 2px 9px;
     margin-bottom: 1rem;
     font-size: 1.75rem;
@@ -174,7 +174,7 @@ section .header{
 }
 .features .card h4{
     margin-bottom:0.5rem ;
-    color: #fff;
+    color: #03c988;
     font-size: 1.2rem;
     font-weight: 600;
 }
@@ -187,7 +187,7 @@ section .header{
     transition: all 0.3s ease;
 }
 .features .card a:hover{
-    color: #1e40af;
+    color: #03c988;
 }
 .sub-header{
     max-width: 600px;
@@ -204,7 +204,7 @@ section .header{
 }
 .pricing .card{
     padding: 3rem 2rem;
-    background-color: #27272a;
+    background-color: #1c82ad;
     display: flex;
     flex-direction: column;
     border: 2px solid transparent;
@@ -212,7 +212,7 @@ section .header{
     transform: all 0.3s ease;
 }
 .pricing .card:hover{
-    background-color: #323232;
+    background-color: #00337C;
     border-color: #fff;
 
 }
@@ -254,7 +254,7 @@ section .header{
 }
 
 .pricing .card button:hover{
-    background-color: #1e40af;
+    background-color: #1c82ad;
     border-color: #1e40af;
 }
 
