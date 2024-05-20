@@ -67,13 +67,13 @@ nav{
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
-    background-color: #1c82ad;
+    background-color: #03c988;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .btn:hover{
-    background-color: #03c988;
+    background-color: #08875d;
 }
 
 .container{
@@ -364,7 +364,7 @@ footer .column > a:hover{
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-color: rgba(255, 255, 255, 0.272);
+    background-color: rgba(19, 60, 185, 0.168);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.3);
     display: flex;
@@ -374,13 +374,13 @@ footer .column > a:hover{
 }
 .sidebar li{
     width: 100%;
+    
 }
 .sidebar a{
     width: 100%;
+    
 }
-.menu-button{
-    display: none;
-}
+
 @media(max-width: 800px){
     .hideOnMobile{
         display: none;
