@@ -5,3 +5,4 @@
 # It took me 3 hours 11 minutes for Coding only , therefore it took me around 1 hr for choosing the colour , images and so on.
 
 **It was really funny and challenging to maintain it , but it was great to work on a Portfolio and learn new things.**
+# you need to put your back into it and remember alle anfang ist schwer
