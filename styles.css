@@ -211,6 +211,7 @@ section .header{
     border: 2px solid transparent;
     border-radius: 15px;
     transform: all 0.3s ease;
+    align-content: center;
 }
 .pricing .card:hover{
     background-color: #00337C;
@@ -252,6 +253,8 @@ section .header{
     color: #fff;
     background-color: transparent;
     border: 2px solid #fff;
+    margin-left: 5px;
+    width: 100%;
 }
 
 .pricing .card button:hover{
@@ -264,6 +267,7 @@ footer{
     display: grid;
     grid-template-columns: 400px repeat(3, 1fr);
     gap: 2rem;
+    background-color: #0b2264;
 }
 footer .column .logo{
     max-width: 100px;
