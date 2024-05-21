@@ -25,10 +25,12 @@ link3.addEventListener('click', () => {
     scrollToElement('.column');
 });
 
-const hamburgerMenu = document.querySelector('.hamburger-menu');
-const navMenu = document.querySelector('.nav-menu');
+function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+}
+function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+}
 
-hamburgerMenu.addEventListener('click', () => {
-  navMenu.classList.toggle('active');
-  hamburgerMenu.classList.toggle('active');
-});
