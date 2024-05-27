@@ -17,7 +17,7 @@ img{
 }
 a{
     text-decoration: none;
-
+    
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -152,7 +152,7 @@ section .header{
 }
 .features .card{
     background-color: #00337C;
-    padding: 2rem;
+    padding: 1rem;
     border: 2px solid transparent;
     border-radius: 15px;
     transition: all 0.3s ease;
@@ -210,8 +210,9 @@ section .header{
     flex-direction: column;
     border: 2px solid transparent;
     border-radius: 15px;
-    transform: all 0.3s ease;
+    transition: all 0.3s ease;
     align-content: center;
+    height: 34rem;
 }
 .pricing .card:hover{
     background-color: #00337C;
@@ -226,14 +227,14 @@ section .header{
 .pricing .card h4{
     margin-bottom: 1rem;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 12px;
     font-weight: 500;
 }
 
 .pricing .card h3{
     color: #fff;
     padding-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 600;
     border-bottom: 2px dashed #fff;
 }
@@ -381,16 +382,3 @@ footer .column > a:hover{
     
 }
 
-@media(max-width: 800px){
-    .hideOnMobile{
-        display: none;
-    }
-    .menu-button{
-        display: block;
-    }
-}
-@media(max-width: 400px){
-    .sidebar{
-        width: 100%;
-    }
-}
